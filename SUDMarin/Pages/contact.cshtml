@@ -1,0 +1,185 @@
+﻿@page
+@using Microsoft.Extensions.Localization;
+@using System.Net.Mail;
+@using SUDMarin.Resources;
+@inject IStringLocalizer<SharedResource> sl;
+@{
+
+
+
+    var nav1 = sl["nav1"].Value;
+    var nav2 = sl["nav2"].Value;
+    var nav3 = sl["nav3"].Value;
+    var nav4 = sl["nav4"].Value;
+
+                    /* MAIL SENDER
+                    * try
+    {
+    var smtpClient = new SmtpClient("smtp-mail.outlook.com", 587)
+    {
+    UseDefaultCredentials = false,
+    Credentials = new System.Net.NetworkCredential("mertmetinctt@outlook.com", "Metrosso1!"),
+    EnableSsl = true,
+    Timeout = 300000 // 300 seconds
+
+                    };
+
+                    var message = new MailMessage
+    {
+    From = new MailAddress("mertmetinctt@outlook.com"),
+    Subject = "Test email",
+    Body = "This is a test email from C#"
+
+    };
+
+    message.To.Add("necatimertmetin@gmail.com");
+            Console.WriteLine("trying to send");
+        try
+            {
+            smtpClient.Send(message);
+            }
+            catch(Exception ex)
+        {
+        Console.WriteLine("hata : " + ex);
+    }
+    Console.WriteLine("email send");
+        }
+    catch (Exception e)
+    {
+    Console.WriteLine(e);
+    }
+    */
+
+    async Task<IActionResult> OnPostAsync(string senderEmail, string recipientEmail, string subject, string message, string name, string surname, string phone, string mail)
+    {
+        Console.WriteLine("trying");
+        MailMessage mailMessage = new MailMessage("mertmetinctt@outlook.com", "mertmetinctt@gmail.com", subject, name + " " + surname + " " + phone + " " + mail);
+
+        // Set additional properties of the MailMessage as needed, such as CC, BCC, attachments, etc.
+
+        // Create a new SmtpClient object and send the MailMessage
+        SmtpClient smtpClient = new SmtpClient("smtp-mail.outlook.com", 587);
+        await smtpClient.SendMailAsync(mailMessage);
+        Console.WriteLine("mail send");
+        return Page();
+    }
+    
+}
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="~/css/contactStyles.css">
+    <link rel="stylesheet" href="~/css/sharedStyles.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <title>SUD Marine</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+
+    <div class="welcome-container">
+        <div class="welcome-title">CONTACT</div>
+    </div>
+
+
+    <div class="map">
+        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=29.099768400192264%2C40.96971200557959%2C29.101822972297672%2C40.97086637018146&amp;layer=mapnik" style="border: 1px solid black"></iframe><br /><small><a href="https://www.openstreetmap.org/#map=19/40.97029/29.10080">View Larger Map</a></small>
+    </div>
+
+    <div class="commitment-container">
+        <div class="commitment-left">
+            <div class="commitment-title">
+                SUD Marin Commitment
+            </div>
+            <hr>
+            <div class="commitment-desc">
+                Fell free to asking about Sud Marin or Just say hello to us
+            </div>
+            <img class="commitment-image" src="~/img/5-1.png" alt="vehicle">
+        </div>
+
+        <form class="commitment-right" action="" method="post">
+            <div class="commitment-name">
+                <input class="commitment-first-name" placeholder="First Name*" name="name" id="name" required>
+                <input class="commitment-last-name" placeholder="Last Name*" name="surname" id="surname" required>
+            </div>
+            <div class="commitment-contact-info">
+                <input class="commitment-mail" placeholder="Mail*" name="mail" id="mail" required>
+                <input class="commitment-phone" placeholder="Phone*" name="phone" id="phone" required>
+            </div>
+            <textarea class="commitment-message" placeholder="Your Message*" name="message" id="message" required></textarea>
+            <button class="commitment-button" type="submit">Send</button>
+        </form>
+    </div>
+
+    <div class="office-container">
+        <div class="office">
+            <div class="office-name office-item">
+                <div class="office-element-title">
+                    Head Quarters
+                </div>
+                <div class="office-name-location">
+                    New York, USA
+                </div>
+            </div>
+            <div class="office-address office-item">
+                <div class="office-element-title">
+                    Address
+                </div>
+                777 Street Fourth Avenue Somewhere Over Rainbow
+                View on Map
+            </div>
+            <div class="office-phones office-item">
+                <div class="office-element-title">
+                    Phone
+                </div>
+                <div class="office-phone">
+                    +22 090 1777 1999
+                </div>
+                <div class="office-phone">
+                    +22 090 1777 1999
+                </div>
+            </div>
+            <div class="office-faxes office-item">
+                <div class="office-element-title">
+                    Fax
+                </div>
+                <div class="office-fax">
+                    (77) 2222 0900 1777
+                </div>
+                <div class="office-fax">
+                    (77) 2222 0900 1777
+                </div>
+            </div>
+            <div class="office-email office-item">
+                <div class="office-element-title">
+                    E-Mail
+                </div>
+                necatimertmetin@gmail.com
+            </div>
+            <div class="social-media-container office-item">
+                <div class="office-element-title">
+                    Social Media
+                </div>
+                <div class="social-media-icons">
+                    <a href="#"> <img class="social-media facebook" src="~/img/facebook.png" alt="facebook" /></a>
+                    <a href="#"> <img class="social-media instagram" src="~/img/instagram.png" alt="instagram" /></a>
+                    <a href="#"> <img class="social-media twitter" src="~/img/twitter.png" alt="twitter" /></a>
+                    <a href="#"> <img class="social-media linked-in" src="~/img/linkedin.png" alt="linked-in" /></a>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+
+    
+
+</body>
+
+</html>

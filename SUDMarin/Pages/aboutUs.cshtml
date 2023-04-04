@@ -1,0 +1,128 @@
+﻿@page
+@using Microsoft.Extensions.Localization;
+@using SUDMarin.Resources;
+@inject IStringLocalizer<SharedResource> sl;
+@{
+
+    var nav1 = sl["nav1"].Value;
+    var nav2 = sl["nav2"].Value;
+    var nav3 = sl["nav3"].Value;
+    var nav4 = sl["nav4"].Value;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/aboutUsStyles.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/sharedStyles.css" asp-append-version="true">
+    <title>SUD Marine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   
+
+
+    <div class="welcome-container">
+        <div class="welcome-title">About Us</div>
+    </div>
+
+    <div class="about-us-container">
+        <div class="about-us-column">
+            <div class="about-us-column-title">
+                Misyonumuz
+            </div>
+            <div class="about-us-column-desc">
+
+
+                Benean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
+
+                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
+
+            </div>
+            <hr>
+            <div class="about-us-column-title">
+                Amacımız
+            </div>
+            <div class="about-us-column-desc">
+
+
+                Benean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
+
+                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
+
+            </div>
+        </div>
+
+        <div class="about-us-column about-us-center-column">
+
+
+            <div class="about-us-center-column-title">
+                SUD Marin Commitment
+            </div>
+            <hr>
+            <div class="about-us-center-column-desc">
+                We are commited to be the leading logistic solutions provider to our customer. We continually improving & implementing a quality management to achieve it
+                to achieve it
+            </div>
+            <img class="about-us-center-column-signature" src="~/img/signature.png" alt="iletişim">
+
+
+            <div class="about-us-center-column-nickname">
+                <span style="font-weight: bold;">Mert Metin</span>, CTT Denizcilik Bilgi İşlem Sorumlusu
+            </div>
+
+            <img class="about-us-center-column-vehicle" src="~/img/1-1.png" alt="iletişim">
+
+
+        </div>
+
+
+        <div class="about-us-column">
+            <div class="about-us-column-title">
+                Vizyonumuz
+            </div>
+            <div class="about-us-column-desc">
+
+
+                Benean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
+
+                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
+
+            </div>
+            <hr>
+            <div class="about-us-column-title">
+                Değerlerimiz
+            </div>
+            <div class="about-us-column-desc">
+
+
+                Benean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio
+
+                Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
+
+            </div>
+        </div>
+    </div>
+
+
+     <div class="contact-us-container">
+        <div class="contact-us-panel">
+            <div class="contact-us-text">Contact us now to get quote for all your global shipping needs</div>
+            <button class="contact-us-button" onclick="window.location.href='contact'">Contact Us</button>
+        </div>
+    </div>
+
+    <div class="company-container">
+        <div class="company-container-text">
+            <h2>The Most Progressive Company</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>

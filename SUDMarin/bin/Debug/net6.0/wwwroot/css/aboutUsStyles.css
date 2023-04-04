@@ -1,0 +1,160 @@
+
+  .welcome-container{
+    height: 30vh;
+    background-image: url("../img/HLAG_Wallpaper_stack-containers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .welcome-title{
+    height: 3vw;
+    font-size: 3.5vw;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+  .about-us-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    background-color: #e1e5f8;  
+  }
+  .about-us-column{
+    flex: 2;
+    
+    min-width: 250px;
+    padding: 50px;
+  }
+  .about-us-column hr{
+    width: 2vw;
+    color: rgba(218, 165, 32, 1);
+    margin-top: 5vh;
+    margin-left: 0vw;
+  }
+  .about-us-column-title{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-weight: bold;
+    font-size: 1.7vw;
+  }
+  .about-us-center-column{
+    position: relative;
+    flex:1;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    gap:2vw;
+    background-color: #333;
+    color: white;
+    padding: 2vw;
+    transition: .2s;
+  }
+  .about-us-center-column:hover{
+    transform: scale(110%);
+    transition: .2s;
+  }
+  .about-us-center-column hr{
+    width: 2vw;
+    color: rgba(218, 165, 32, 1);
+    margin-left: 0vw;
+  }
+  .about-us-center-column-title{
+    padding-top: 5vh;
+    font-size: 1.7vw;
+    color: rgba(218, 165, 32, 1);
+  }
+  .about-us-center-column-desc{
+    font-style: italic;
+    font-weight: 100;
+  }
+  .about-us-center-column-signature{
+    filter:brightness(500);
+    margin-top: -2vw;
+    margin-bottom: -2vw;
+    height: 10vw;
+    width: 10vw;
+    object-fit: contain;
+    padding: 1vw;
+    
+  }
+.about-us-center-column-nickname {
+    padding-bottom: 80px;
+}
+  .about-us-center-column-vehicle{
+      position: absolute;
+      left: 50%;
+      transform: translateX( -50%);
+      width: 120%;
+      margin-top: -80px;
+  }
+
+@media (max-width: 1024px) {
+    
+    .about-us-container {
+        flex-direction: column;
+        padding-bottom: 5vh;
+    }
+    .about-us-column-title{
+        font-size: 4vh;
+    }
+    .about-us-center-column{
+        height: auto;
+        padding: 50px;
+        
+    }
+    .about-us-column {
+        align-items: center;
+    }
+    .about-us-center-column-title{
+        font-size: 4vh;
+    }
+    .about-us-center-column-desc{
+        font-size: 3vh;
+    }
+    .about-us-center-column-signature{
+        font-size: 3vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+        width: 100%;
+        height: 10vh;
+    }
+
+    .company-container {
+        height: auto;
+        padding: 100px;
+    }
+
+    .company-container-text {
+        margin: auto;
+        background: rgba(255, 255, 255, 0.5);
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        height: auto;
+        width: 70vw;
+        padding: 50px;
+        font-size: 1vh;
+    }
+
+        .company-container-text h2 {
+            text-align: center;
+        }
+    .about-us-center-column-nickname {
+        padding-bottom: 0;
+    }
+
+    .about-us-center-column-vehicle {
+        display: none;
+    }
+}

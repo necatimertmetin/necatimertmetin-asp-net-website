@@ -1,0 +1,113 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/sharedStyles.css">
+    <title>SUD Marine</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <img class="navbar-logo" onclick="window.location.href='index'" alt="SUD Marine" src="/img/sudlogo.png"/>
+        <div class="navbar-right">
+            <ul class="navbar-links" id="navbar-items">
+                <li><a href="/Index" style="color: rgba(218, 165, 32, 1);">nav1</a></li>
+                <li class="about-dropdown">
+                    <div class="about-dropdown-fixer"></div>nav2<img class="about-dropdown-down-arrow" src="/img/down-arrow.png" />
+                    <div class="about-dropdown-list">
+                        <a class="about-dropdown-item" href="/aboutUs">Who We Are</a>
+                        <a class="about-dropdown-item" href="/testimonials">Testimonials</a>
+                    </div>
+
+                </li>
+                <li><a href="/services">nav3</a></li>
+                <li><a href="/contact">nav4</a></li>
+            </ul>
+            <div class="navbar-helpers">
+                <div class="dropdown">
+                    <button class="dropbtn"><a href="/Index/?culture=en-EN"><img class="dropdown-image" src="~/img/united-kingdom.png"></a></button>
+                    <div class="dropdown-content">
+                        <a href="/Index/?culture=tr-TR"><img class="dropdown-image" src="~/img/turkey.png"></a>
+                        <a href="#"><img class="dropdown-image" src="~/img/spain.png"></a>
+                        <a href="#"><img class="dropdown-image" src="~/img/germany.png"></a>
+                        <a href="#"><img class="dropdown-image" src="~/img/france.png"></a>
+                        <a href="#"><img class="dropdown-image" src="~/img/china.png"></a>
+                        <a href="#"><img class="dropdown-image" src="~/img/japan.png"></a>
+                        <a href="#"><img class="dropdown-image" src="~/img/russia.png"></a>
+
+
+                    </div>
+                </div>
+
+                <div class="navbar-toggle">
+                    <a class="hamburger" href="#navbar-items"></a>
+                </div>
+            </div>
+
+        </div>
+
+
+    </nav>
+    @RenderBody()
+
+    <!-- BACK TO TOP BUTTON-->
+
+    <div class="back-to-top" onclick="topFunction()" id="myBtn"></div>
+
+    <!-- FOOTER-->
+
+    <footer class="footer-container">
+        <div class="footer-items">
+            <div class="footer-item">
+                <div class="footer-item-title">
+                    About Us
+                </div>
+                <div class="footer-item-desc">
+                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae.
+                </div>
+                <a class="" href="/aboutUs">Who We Are ?</a>
+            </div>
+            <div class="footer-item footer-item-border">
+                <div class="footer-item-title">
+                    Newsletter
+                </div>
+                <div class="footer-item-desc">
+                    
+                    Subscribe to our newsletter and stay updated for special offers!
+                </div>
+                <form>
+                    <input type="email" placeholder="Email" />
+                    <button type="submit" onclick="newsletter()" class="footer-item-button">Subscribe</button>
+
+                </form>
+            </div>
+
+
+            <div class="footer-item">
+                <div class="footer-menu">
+                    <div class="footer-item-title">Pages</div>
+                    <div class="footer-menu-item">
+                        <a href="index"> > Home Page</a>
+                        <a href="aboutUs"> > About Us</a>
+                        <a href="testimonials"> > Testimonials</a>
+                        <a href="Services"> > Services</a>
+                        <a href="contact"> > Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <div class="copyright">Copyright © SUD Marin 2023. Tüm hakları saklıdır. </div>
+        </div>
+    </footer>
+
+    <script src="~/js/hamburger.js"></script>
+    <script src="~/js/top.js"></script>
+    <script src="~/js/newsletter.js"></script>
+</body>
+</html>

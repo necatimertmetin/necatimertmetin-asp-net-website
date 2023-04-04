@@ -1,0 +1,148 @@
+﻿@page
+@using Microsoft.Extensions.Localization;
+@using SUDMarin.Resources;
+@inject IStringLocalizer<SharedResource> sl;
+@{
+
+    var nav1 = sl["nav1"].Value;
+    var nav2 = sl["nav2"].Value;
+    var nav3 = sl["nav3"].Value;
+    var nav4 = sl["nav4"].Value;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/servicesStyles.css">
+    <link rel="stylesheet" href="~/css/sharedStyles.css">
+
+    <title>SUD Marine</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <div class="welcome-container">
+        <div class="welcome-title">SERVICES</div>
+    </div>
+
+
+
+    <div class="freights-container">
+        <div class="freight">
+            <div class="freight-title">
+                Ocean Freight
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/1-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="services\ocean-freight"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Air Freight
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/2-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="services/air-freight"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Contract Logistic
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/3-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="services/contract-logistic"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Cargo Express
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/4-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="services/cargo-express"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+    </div>
+
+
+    <div class="freights-container">
+        <div class="freight">
+            <div class="freight-title">
+                Warehousing
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/6-11.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="services\warehousing"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Custom Brokerage
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/2-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="services\custom-brokerage"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Corporate Transportation
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/3-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="services\corporate-transportation"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Goods Transportation
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/4-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="goods-transportation"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+    </div>
+
+
+    <div class="contact-us-container">
+        <div class="contact-us-panel">
+            <div class="contact-us-text">Contact us now to get quote for all your global shipping needs</div>
+            <button class="contact-us-button" onclick="window.location.href='contact'">Contact Us</button>
+        </div>
+    </div>
+
+
+</body>
+</html>

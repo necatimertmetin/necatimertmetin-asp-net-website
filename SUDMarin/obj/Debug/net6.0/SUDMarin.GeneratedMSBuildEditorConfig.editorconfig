@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SUDMarin
+build_property.RootNamespace = SUDMarin
+build_property.ProjectDir = C:\Users\mert.metin\source\repos\SUDMarin\SUDMarin\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mert.metin\source\repos\SUDMarin\SUDMarin
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/aboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWJvdXRVcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services/air-freight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcYWlyLWZyZWlnaHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services/cargo-express.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcY2FyZ28tZXhwcmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services/contract-logistic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcY29udHJhY3QtbG9naXN0aWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services/corporate-transportation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcY29ycG9yYXRlLXRyYW5zcG9ydGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services/custom-brokerage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcY3VzdG9tLWJyb2tlcmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services/goods-transportation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcZ29vZHMtdHJhbnNwb3J0YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services/ocean-freight.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcb2NlYW4tZnJlaWdodC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/services/warehousing.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2VydmljZXNcd2FyZWhvdXNpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/shared/Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2hhcmVkXE5hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/shared/ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2hhcmVkXFZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/testimonials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdGltb25pYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mert.metin/source/repos/SUDMarin/SUDMarin/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

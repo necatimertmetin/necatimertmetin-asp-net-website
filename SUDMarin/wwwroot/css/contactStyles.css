@@ -1,0 +1,278 @@
+
+
+  .welcome-container{
+    height: 40vh;
+    background-image: url("../img/HLAG_Wallpaper_stack-containers.jpg");
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .welcome-title{
+    font-family: 'Oswald', sans-serif;
+    height: 3vw;
+    font-size: 3.5vw;
+    margin: auto;
+    text-align: center;
+    font-weight: 700;
+    color: wheat;
+
+  }
+
+
+  .map{
+      background-color: #fff !important;
+  }
+  .office-container{
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .office-container hr{
+    width: 80vw;
+    color: rgba(218, 165, 32, 1);
+  }
+
+  .office{
+    margin: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap:2vw;    
+  }
+  .office-item{
+      min-width: 180px;
+      text-align: center;
+      align-items: center;
+      align-content: center;
+  }
+  .office-element-title{
+    color: #222 !important;
+    font-weight: bold;
+    margin-bottom: 1vh;
+  }
+  .office div{
+    flex: 1;
+    color: #777;
+    margin-top:1vh;
+  }
+
+  .social-media{
+      width: 20px;
+      height: 20px;
+  }
+  .social-media-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .commitment-container{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    background-color: #101010;
+    padding: 5vw;
+    gap: 3vw;   
+  }
+  
+  .commitment-left{
+    
+    background-color: rgba(80, 80, 80, 0.5);
+    margin-top:3.9vh;
+    height: 54vh;
+    padding: 2vw;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+  }
+  .commitment-left hr{
+    width: 10vw;
+    margin-left: 0;
+    color: rgba(218, 165, 32, 1);
+  }
+  .commitment-title{
+    
+    font-size: 1.8vw;
+    font-weight: bolder;
+    color: rgba(218, 165, 32, 1);
+  }
+  .commitment-desc{
+    color: #eee;    
+    font-size: 1.5vw;
+    margin-bottom: 3vw;
+  }
+  .commitment-image{
+    font-weight: bolder;
+    color: rgba(218, 165, 32, 1);
+    width: 15vw;
+    object-fit: contain;
+    transition: 0.2s;
+    align-self: center;
+  }
+
+
+  .commitment-right{    
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .commitment-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    gap:2vw;
+  }
+  .commitment-contact-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    gap:2vw;
+  }
+  .commitment-contact-info input{
+    padding: 1vw;
+    background-color: rgba(80, 80, 80, 0.5);
+    font-size: 1.5vw;
+    color: white;
+    border-style: none;
+    flex:1;
+  }
+  .commitment-name input{
+    padding: 1vw;
+    background-color: rgba(80, 80, 80, 0.5);
+    font-size: 1.5vw;
+    color: white;
+    border-style: none;
+    flex:1;
+  }
+  .commitment-message{
+    padding: 1vw;
+    background-color: rgba(80, 80, 80, 0.5);
+    font-size: 1.5vw;
+    color: white;
+    border-style: none;
+  }
+  .commitment-button{
+  cursor: pointer;
+  background-color: rgba(218, 165, 32, 1);
+  color: #fff;
+  border: 5px solid rgba(218, 165, 32, 1);
+  font-size: 1.5vw;
+  }
+
+
+
+
+@media (max-width: 1024px) {
+
+
+    .welcome-title{
+        font-size: 9vh;
+        margin: auto;
+    }
+
+    .office{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 30px;
+    }
+    .office-item{
+        width: 90vw;
+    }
+    .social-media {
+        width: 100px;
+        height: 100px;
+    }
+
+    .commitment-container {
+        flex-direction: column;
+        height: auto;
+        gap: 10vh;
+    }
+    .commitment-right div{
+        flex-direction: column;
+        
+    }
+    .commitment-right input::placeholder{
+        font-size: 20px;
+        align-content: center;
+        align-self: center;
+        text-align: center;
+    }
+    .commitment-right input{
+        text-align: start;
+        font-size: 25px;
+    }
+    .commitment-right textarea{
+        font-size: 25px;
+    }
+    .commitment-right textarea::placeholder{
+        font-size: 25px;
+    }
+    .commitment-left{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;   
+        gap: 30px;
+    }
+    .commitment-title {
+        font-size: 3vh;
+        flex: 10;
+    }
+    .commitment-left hr {
+        flex: 1;
+        transform: rotate(90deg) scaleX(100%);
+    }
+    .commitment-image{
+        display: none;
+    }
+    .commitment-desc {
+        flex: 10;
+        margin: auto;
+        text-align: right;
+        font-size: 3vh;
+        gap: 3rem
+    }
+    .commitment-right {
+        height: 3rem;
+        font-size: 2rem;
+        gap: 3rem
+    }
+    .commitment-name {
+        height: 3rem;
+        font-size: 2rem;
+        gap: 3rem
+    }
+    .commitment-contact-info {
+        height: 3rem;
+        font-size: 2rem;
+        gap: 3rem
+    }
+    .commitment-message {
+        height: 3rem;
+        font-size: 2rem;
+        gap: 3rem
+    }
+    .commitment-button {
+        height: 3rem;
+        font-size: 2rem;
+        gap: 3rem
+    }
+}

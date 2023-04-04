@@ -1,0 +1,31 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SUDMarin/1.0.0": {
+        "runtime": {
+          "SUDMarin.dll": {}
+        },
+        "resources": {
+          "en-US/SUDMarin.resources.dll": {
+            "locale": "en-US"
+          },
+          "tr-TR/SUDMarin.resources.dll": {
+            "locale": "tr-TR"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SUDMarin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

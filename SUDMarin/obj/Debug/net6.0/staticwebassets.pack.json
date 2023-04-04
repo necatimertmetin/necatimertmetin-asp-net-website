@@ -1,0 +1,465 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\css\\aboutUsStyles.css",
+      "PackagePath": "staticwebassets\\css\\aboutUsStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\css\\contactStyles.css",
+      "PackagePath": "staticwebassets\\css\\contactStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\css\\servicesSharedStyles.css",
+      "PackagePath": "staticwebassets\\css\\servicesSharedStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\css\\servicesStyles.css",
+      "PackagePath": "staticwebassets\\css\\servicesStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\css\\sharedStyles.css",
+      "PackagePath": "staticwebassets\\css\\sharedStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\css\\testimonialsStyles.css",
+      "PackagePath": "staticwebassets\\css\\testimonialsStyles.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\1-1.png",
+      "PackagePath": "staticwebassets\\img\\1-1.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\2-1.png",
+      "PackagePath": "staticwebassets\\img\\2-1.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\3-1.png",
+      "PackagePath": "staticwebassets\\img\\3-1.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\4-1.png",
+      "PackagePath": "staticwebassets\\img\\4-1.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\5-1.png",
+      "PackagePath": "staticwebassets\\img\\5-1.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\6-1.png",
+      "PackagePath": "staticwebassets\\img\\6-1.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\6-11.png",
+      "PackagePath": "staticwebassets\\img\\6-11.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\HLAG_Wallpaper_stack-containers.jpg",
+      "PackagePath": "staticwebassets\\img\\HLAG_Wallpaper_stack-containers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\Loading.gif",
+      "PackagePath": "staticwebassets\\img\\Loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\arrow-down-sign-to-navigate.png",
+      "PackagePath": "staticwebassets\\img\\arrow-down-sign-to-navigate.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\bus.gif",
+      "PackagePath": "staticwebassets\\img\\bus.gif"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\calendar.png",
+      "PackagePath": "staticwebassets\\img\\calendar.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\cargo-plane-wallpaper.jpg",
+      "PackagePath": "staticwebassets\\img\\cargo-plane-wallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\cargo-ship-1.gif",
+      "PackagePath": "staticwebassets\\img\\cargo-ship-1.gif"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\cargo-ship-2.gif",
+      "PackagePath": "staticwebassets\\img\\cargo-ship-2.gif"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\china.png",
+      "PackagePath": "staticwebassets\\img\\china.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\contactwallpaper.jpg",
+      "PackagePath": "staticwebassets\\img\\contactwallpaper.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\down-arrow.png",
+      "PackagePath": "staticwebassets\\img\\down-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\france.png",
+      "PackagePath": "staticwebassets\\img\\france.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\germany.png",
+      "PackagePath": "staticwebassets\\img\\germany.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\hamburger.png",
+      "PackagePath": "staticwebassets\\img\\hamburger.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\home.png",
+      "PackagePath": "staticwebassets\\img\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\instagram.png",
+      "PackagePath": "staticwebassets\\img\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\japan.png",
+      "PackagePath": "staticwebassets\\img\\japan.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\linkedin.png",
+      "PackagePath": "staticwebassets\\img\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\location.png",
+      "PackagePath": "staticwebassets\\img\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\pexels-pixabay-262353.jpg",
+      "PackagePath": "staticwebassets\\img\\pexels-pixabay-262353.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\profile.jpg",
+      "PackagePath": "staticwebassets\\img\\profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\russia.png",
+      "PackagePath": "staticwebassets\\img\\russia.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\safe-logo.png",
+      "PackagePath": "staticwebassets\\img\\safe-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\signature.png",
+      "PackagePath": "staticwebassets\\img\\signature.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\spain.png",
+      "PackagePath": "staticwebassets\\img\\spain.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\sudlogo.png",
+      "PackagePath": "staticwebassets\\img\\sudlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\telephone.png",
+      "PackagePath": "staticwebassets\\img\\telephone.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\turkey.png",
+      "PackagePath": "staticwebassets\\img\\turkey.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\twitter.png",
+      "PackagePath": "staticwebassets\\img\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\united-kingdom.png",
+      "PackagePath": "staticwebassets\\img\\united-kingdom.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\img\\welcome-image.jpg",
+      "PackagePath": "staticwebassets\\img\\welcome-image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\js\\hamburger.js",
+      "PackagePath": "staticwebassets\\js\\hamburger.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\js\\newsletter.js",
+      "PackagePath": "staticwebassets\\js\\newsletter.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\js\\top.js",
+      "PackagePath": "staticwebassets\\js\\top.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\mert.metin\\source\\repos\\SUDMarin\\SUDMarin\\wwwroot\\vid\\background2.mp4",
+      "PackagePath": "staticwebassets\\vid\\background2.mp4"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SUDMarin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SUDMarin.props",
+      "PackagePath": "build\\SUDMarin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SUDMarin.props",
+      "PackagePath": "buildMultiTargeting\\SUDMarin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SUDMarin.props",
+      "PackagePath": "buildTransitive\\SUDMarin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

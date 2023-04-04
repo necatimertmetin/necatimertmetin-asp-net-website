@@ -1,0 +1,443 @@
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -999  !important;
+    filter: brightness(50%);
+}
+
+
+.welcome {
+    width: 100vw;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.welcome-container{
+  padding-left: 5vw;
+  width: 100vw;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.welcome-title{
+  
+  font-size: 22px;
+  color: rgb(255, 208, 0);
+  user-select: none;
+}
+.welcome-slogan{
+
+  user-select: none;
+  width: 70vw;
+  font-size: 80px;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+.welcome-button {
+    margin-top: 1vw;
+    cursor: pointer;
+    background-color: rgba(218, 165, 32, 1);
+    color: #333;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 24vh;
+    height:8vh;
+    border: none;
+    font-size: 2vh;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+.welcome-button:hover{
+  background-color: honeydew;
+  color: #000;
+  transition: 0.2s;
+}
+.welcome-button:active {
+  background-color: #000;
+  color: wheat;
+}
+
+.location-details {
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    z-index: 20 !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.location-item {
+    background: #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+.location-item-card{
+  display: flex;
+  flex-direction: column;
+  height: 12px;
+  justify-content: center;
+
+
+}
+.location-item-title{
+  color: rgb(240, 240, 240);
+  font-weight: 700;
+  text-align: left;
+}
+.location-item-desc{
+  color: rgb(150, 150, 150);
+  font-weight: 500;
+}
+.location-item-logo {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+
+
+
+
+button:hover{
+  background-color: honeydew;
+  color: #000;
+  transition: 0.2s;
+}
+button:active {
+  background-color: #000;
+  color: wheat;
+}
+
+.tracking-container{
+  background: rgba(10, 10, 10, 1) url("../img/welcome-image.jpg") no-repeat center center;
+  background-size: cover;
+  height: 10vw;
+  color:white;
+
+}
+
+
+
+
+
+
+
+
+.why-choose-us-container{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+}
+.why-choose-us-left{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 450px;
+  padding: 30px;
+}
+.why-choose-us-right{
+  background-image: url("../img/pexels-pixabay-262353.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  
+}
+.why-choose-us-left-content{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.why-choose-us-container hr{
+  width: 3vw;
+  margin-left: 0;
+  color: rgba(218, 165, 32, 1);
+}
+.why-choose-us-right-content {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    color: rgb(231, 238, 247);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 50px 50px 50px 50px;
+    padding: 50px;
+}
+.why-choose-us-title-desc{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4vh;
+  gap: 3vh;
+}
+.why-choose-us-title{
+  font-size: x-large;
+  font-weight: 600
+}
+
+.why-choose-us-items{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+.why-choose-us-item{
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  flex:1;
+  gap:10px;
+}
+.why-choose-us-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    padding: 10px;
+}
+.why-choose-us-item-text{
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.why-choose-us-item-title{
+  font-weight: bold;
+  color: #333;
+}
+.why-choose-us-item-desc{
+  color: #666;
+  width: 80%;
+}
+
+
+.about-us-center-column-title{
+  color: rgba(218, 165, 32, 1);
+  font-weight: bolder;
+  font-size: 50px;
+}
+.about-us-center-column-signature{
+  filter:brightness(500);
+  max-width: 180px;
+  object-fit: contain;
+  padding: 20px;
+}
+.about-us-center-column-desc {
+    font-size: 25px;
+}
+
+
+
+.track-and-trace-bar{
+  height: 10vw;
+  align-self: center;
+  background-color: rgba(10, 10, 10, 0.8);
+  display: flex;
+  flex-direction: row;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  justify-content: center;
+  align-items: center;
+  color:rgb(150, 150, 150);
+  font-size: 2vw;
+  gap: 10px;
+}
+.track-and-trace{
+  background:rgba(10, 10, 10, 0.8);
+  border: 2px solid rgb(150, 150, 150);
+  text-align: center;
+  flex:1;
+  
+}
+.track-input{
+  height: 2.3vw;
+  
+  flex:3;
+  background:rgba(10, 10, 10, 0.8);
+  color:rgb(230, 230, 230);
+  font-family: 'Lato', sans-serif;
+  border: 2px solid rgb(150, 150, 150);
+}
+input[type="text"] {
+  border: 2px solid rgb(150, 150, 150);
+}
+.track-input::placeholder {
+  color: rgb(200, 200, 200);
+  font-family: 'Lato', sans-serif;
+  font-size: 1vw;
+}
+.track-button{
+  
+  flex:1;
+  cursor: pointer;
+  background-color: rgba(218, 165, 32, 1);
+  color: #333;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: none;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  
+  transition: 0.2s;
+}
+
+.startAnimation {
+    animation-name: imageAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes imageAnimation {
+    0% {
+        transform: translateX(-120px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1024px) {
+    .welcome{
+        height: 95vh;
+    }
+    .welcome-title{
+        font-size: 3vh;
+    }
+    .welcome-container{
+        gap: 4vh;
+    }
+
+
+
+    .location-details {
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        gap: 200px;
+    }
+    .location-item {
+        flex-direction: column;
+    }
+    .location-item-card {
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+    }
+    .location-item-title{
+        text-align: center !important;
+    }
+    .location-item-logo {
+        height: 10vh;
+        width: 10vh;
+        object-fit: contain;
+        padding: 5vh;
+    }
+    .why-choose-us-left-content{
+        padding-top: 500px;
+        padding-bottom: 300px;
+    }
+    .why-choose-us-title{
+        text-align: center;
+        font-size: 10vh;
+        padding-bottom: 500px;
+    }
+    .why-choose-us-item{
+        flex-direction: column;
+        padding-top: 150px;
+        text-align: center !important;
+        align-items: center;
+        gap: 100px;
+    }
+    .why-choose-us-item-image {
+        flex: 5;
+        width: 20vh;
+        height: 20vh;
+        padding: 0;
+    }
+    .why-choose-item-text {
+        align-items: center;
+        
+    }
+    .why-choose-us-item-desc {
+        width: 100%;
+    }
+    .why-choose-us-right-content {
+        /* From https://css.glass */
+        background: rgba(0, 0, 0, 0.7);
+        box-shadow: none;
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+        color: rgb(231, 238, 247);
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        margin: 50px 50px 50px 50px;
+        padding: 50px;
+    }
+    .about-us-center-column-signature {
+        align-self: center;
+        height: 10vh;
+        width: 30vh;
+        max-width: none;
+    }
+    .about-us-center-column-desc{
+        font-size: 50px;
+    }
+    .track-and-trace-bar{
+        background-color: #111;
+        flex-direction: column;
+        height: 50vh;
+        gap: 10vh;
+        padding: 2vh;
+        
+    }
+    .track-and-trace{
+        position: relative;
+        width: 100%;
+        font-size: 100px;
+    }
+    .track-input {
+        width: 100%;
+        font-size: 40px;
+    }
+    .track-input::placeholder{
+        font-size:40px;
+        text-align: center;
+    }
+    .track-button {
+        width: 100%;
+        font-size: 40px;
+    }
+    .track-button::placeholder{
+        font-size: 100px;   
+    }
+}

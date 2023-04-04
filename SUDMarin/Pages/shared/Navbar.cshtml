@@ -1,0 +1,57 @@
+﻿@page
+@using Microsoft.Extensions.Localization;
+@using SUDMarin.Resources;
+@model SUDMarin.Pages.shared.NavbarModel
+@inject IStringLocalizer<SharedResource> sl;
+@{
+    
+    var nav1 = sl["nav1"].Value;
+    var nav2 = sl["nav2"].Value;
+    var nav3 = sl["nav3"].Value;
+    var nav4 = sl["nav4"].Value;
+}
+
+
+<nav>
+    <div class="navbar-logo" onclick="window.location.href='index'">SUD Marine</div>
+    <div class="navbar-right">
+        <ul class="navbar-links" id="navbar-items">
+            <li><a href="/Index" style="color: rgba(218, 165, 32, 1);">@nav1</a></li>
+            <li class="about-dropdown">
+                <div class="about-dropdown-fixer"></div>@nav2<img class="about-dropdown-down-arrow" src="/img/down-arrow.png" />
+                <div class="about-dropdown-list">
+                    <a class="about-dropdown-item" href="/aboutUs">Who We Are</a>
+                    <a class="about-dropdown-item" href="/testimonials">Testimonials</a>
+                </div>
+
+            </li>
+            <li><a href="/services">@nav3</a></li>
+            <li><a href="/contact">@nav4</a></li>
+        </ul>
+        <div class="navbar-helpers">
+            <div class="dropdown">
+                <button class="dropbtn"><a href="/Index/?culture=en-EN"><img class="dropdown-image" src="~/img/united-kingdom.png"></a></button>
+                <div class="dropdown-content">
+                    <a href="/Index/?culture=tr-TR"><img class="dropdown-image" src="~/img/turkey.png"></a>
+                    <a href="#"><img class="dropdown-image" src="~/img/spain.png"></a>
+                    <a href="#"><img class="dropdown-image" src="~/img/germany.png"></a>
+                    <a href="#"><img class="dropdown-image" src="~/img/france.png"></a>
+                    <a href="#"><img class="dropdown-image" src="~/img/china.png"></a>
+                    <a href="#"><img class="dropdown-image" src="~/img/japan.png"></a>
+                    <a href="#"><img class="dropdown-image" src="~/img/russia.png"></a>
+
+
+                </div>
+            </div>
+
+            <div class="navbar-toggle">
+                <a class="hamburger" href="#navbar-items"></a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</nav>

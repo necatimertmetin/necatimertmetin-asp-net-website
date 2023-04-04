@@ -1,0 +1,265 @@
+﻿@page
+@using Microsoft.Extensions.Localization;
+@using SUDMarin.Resources;
+@model Pages_Index
+@inject IStringLocalizer<SharedResource> sl;
+@{
+    
+    var nav1 = sl["nav1"].Value;
+    var nav2 = sl["nav2"].Value;
+    var nav3 = sl["nav3"].Value;
+    var nav4 = sl["nav4"].Value;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="stylesheet" href="~/css/sharedStyles.css">
+    <title>SUD Marine</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+ 
+
+    <div class="welcome">
+        <div class="welcome-container">
+            <video autoplay loop muted poster="~/img/welcome-image.jpg" id="bg-video">
+                <source src="~/vid/background2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="welcome-title startAnimation">
+                We are the leading
+            </div>
+            <div class="welcome-slogan startAnimation">
+                WORLDWIDE <br />FREIGHT FORWARD
+            </div>
+            <button class="welcome-button startAnimation" onclick="window.location.href='/contact';">Get Rate Quote</button>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="location-details">
+        <div class="location-item">
+            
+                <img class="location-item-logo" src="~/img/calendar.png" alt="iletişim">
+
+            
+            <div class="location-item-card">
+                <div class="location-item-title">
+                    OPENING TIMES
+                </div>
+                <div class="location-item-desc">
+                    Monday – Friday: 11:00AM – 4:00PM
+                </div>
+            </div>
+        </div>
+
+        <div class="location-item">
+                <img class="location-item-logo" src="~/img/location.png" alt="iletişim">
+
+            <div class="location-item-card">
+                <div class="location-item-title">
+                    OUR LOCATION
+                </div>
+                <div class="location-item-desc">
+                    777 Street Fourth Avenue
+                </div>
+            </div>
+        </div>
+
+        <div class="location-item">
+                <img src="~/img/telephone.png" alt="iletişim" class="location-item-logo">
+
+            <div class="location-item-card">
+                <div class="location-item-title">
+                    OUR PHONE
+                </div>
+                <div class="location-item-desc">
+                    +22 090 1777 1999
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="freights-container">
+        <div class="freight">
+            <div class="freight-title">
+                Ocean Freight
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/1-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="..\services\ocean-freight"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Air Freight
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/2-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="..\services\air-freight"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Contract Logistic
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/3-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="https://example.com"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+        <div class="freight">
+            <div class="freight-title">
+                Cargo Express
+            </div>
+            <hr class="freight-title-hr">
+            <img class="freight-image" src="~/img/4-1.png" alt="vehicle">
+            <div class="freight-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed lorem et nulla facilisis consectetur. Nam euismod
+            </div>
+            <a class="freight-link" href="https://example.com"><hr class="freight-hr">Devam Et<hr class="freight-hr"></a>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="contact-us-container">
+        <div class="contact-us-panel">
+            <div class="contact-us-text">Contact us now to get quote for all your global shipping needs</div>
+            <button class="contact-us-button" onclick="window.location.href='contact'">Contact Us</button>
+        </div>
+    </div>
+
+
+    <div class="company-container">
+        <div class="company-container-text">
+            <h2>The Most Progressive Company</h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+
+    <div class="why-choose-us-container">
+        <div class="why-choose-us-left">
+            <div class="why-choose-us-left-content">
+                <div class="why-choose-us-title-desc">
+                    <div class="why-choose-us-title">
+                        Why Choose Us ?
+                    </div>
+                    <div class="why-choose-us-desc">
+                        With more than 30 years of experience in the logistics industry, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis
+                    </div>
+                </div>
+                <hr>
+                <div class="why-choose-us-items">
+                    <div class="why-choose-us-item">
+                        <img class="why-choose-us-item-image" src="~/img/user.png" alt="user">
+                        <div class="why-choose-us-item-text">
+                            <div class="why-choose-us-item-title">
+                                Customer Satisfication Tools
+                            </div>
+                            <div class="why-choose-us-item-desc">
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-choose-us-item">
+                        <img class="why-choose-us-item-image" src="~/img/user.png" alt="user">
+                        <div class="why-choose-us-item-text">
+                            <div class="why-choose-us-item-title">
+                                Customer Satisfication Tools
+                            </div>
+                            <div class="why-choose-us-item-desc">
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="why-choose-us-item">
+                        <img class="why-choose-us-item-image" src="~/img/user.png" alt="user">
+                        <div class="why-choose-us-item-text">
+                            <div class="why-choose-us-item-title">
+                                Customer Satisfication Tools
+                            </div>
+                            <div class="why-choose-us-item-desc">
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="why-choose-us-right">
+            <div class="why-choose-us-right-content">
+
+
+                <div class="about-us-center-column-title">
+                    SUD Marin Commitment
+                </div>
+                <hr>
+                <div class="about-us-center-column-desc">
+                    We are commited to be the leading logistic solutions provider to our customer. We continually improving & implementing a quality management to achieve it
+                    to achieve it
+                </div>
+                <img class="about-us-center-column-signature" src="~/img/signature.png" alt="iletişim">
+
+
+                <div class="about-us-center-column-nickname">
+                    <span style="font-weight: bold;">Mert Metin</span>, CTT Denizcilik Bilgi İşlem Sorumlusu
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="tracking-container">
+        <div class="track-and-trace-bar">
+            <div class="track-and-trace">
+                Track & Trace
+            </div>
+            <input class="track-input" type="text" placeholder="Insert ID Here">
+            <button class="track-button">track cargo</button>
+
+        </div>
+    </div>
+    
+
+    
+
+   
+
+    
+</body>
+</html>
